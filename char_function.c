@@ -80,7 +80,7 @@ int _strlen(char *s)
 	{
 		continue;
 	}
-	continue;
+	return (i);
 }
 
 /**
