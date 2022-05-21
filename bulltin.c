@@ -104,7 +104,7 @@ int display_help(char **cmd, __attribute__((unused))int er)
 	if (fd < 0)
 	{
 		perror("Error");
-		perror("Error");
+		return (0);
 	}
 	while (rd > 0)
 	{
